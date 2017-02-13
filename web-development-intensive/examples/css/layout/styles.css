@@ -1,4 +1,25 @@
-* {
-  border: 1px solid black;
+main {
+  margin-left: 2em;
+}
+section {
+  margin-bottom: 0.5em;
   padding: 1em;
+}
+p { 
+  margin: 0 
+}
+section, div, span, a, p, em {
+  border: 2px solid black;
+  margin-right: 0.5em;
+  padding: 1em;
+}
+span, a, em {
+  border: 2px solid orange;
+}
+div {
+  margin-bottom: 0.5em;
+  width: 2em;
+}
+#flow {
+  width: 15em;
 }

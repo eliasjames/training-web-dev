@@ -6,9 +6,10 @@ section {
   padding: 1em;
 }
 p { 
-  margin: 0 
+  margin: 0;
+  padding: 1em;
 }
-section, div, span, a, p, em {
+section, div, span, a, em {
   border: 2px solid black;
   margin-right: 0.5em;
   padding: 1em;
@@ -22,4 +23,15 @@ div {
 }
 .right, .right * {
   float: right;
+}
+.left, .left * {
+  float: left;
+}
+.clear {
+  border-color: purple;
+  clear: right;
+}
+.clearboth {
+  border-color: purple;
+  clear: both;
 }

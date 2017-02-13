@@ -1,24 +1,10 @@
-/*<ul>
- *  <li>
- *    <p>
- *      <a class="one"></a>
- *    </p>
- *  </li> 
- *</ul> 
-*/
 ul li a {
-  color: lightblue;
+  background-color: purple;
 }
-/* will match any <a> within any <li>  */
-ul > li a {
-  color: red;
+ul li > a {
+  background-color: red;
 }
-/* matches 
- * <ul>
- *  <li>
- *    <p>
- *      <a ></a>
- *    </p>
- *  </li> 
- * </ul> */
-
+a {
+	color: white;
+	padding: 1em;
+}
