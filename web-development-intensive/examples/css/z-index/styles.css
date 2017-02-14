@@ -1,0 +1,39 @@
+main {
+  margin-left: 2em;
+}
+section {
+  margin-bottom: 0.5em;
+  padding: 1em;
+}
+section, span, a, p, em {
+  border: 2px solid black;
+  margin-right: 0.5em;
+  padding: 1em;
+}
+p { 
+  background-color: white;
+  height: 5em;
+  position: relative;
+  width: 5em;
+}
+.example {
+  height: 15em;
+  width: 75%;
+}
+#negative-container {
+  margin: 10% auto;
+  width: 10%;
+}
+#one {
+  margin-left: -2em;
+  margin-top: -2em;
+  z-index: 1;
+}
+#two {
+  margin-left: -4em;
+  margin-top: -4em;
+}
+#three {
+  margin-left: -6em;
+  margin-top: -6em;
+}
