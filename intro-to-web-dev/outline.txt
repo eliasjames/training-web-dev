@@ -1,0 +1,20 @@
+Intro to Web Dev: HTML/CSS/JS
+Duration: Three days
+
+Day One
+Web Development Basics
+Browser Developer Tools
+Semantic HTML & HTML5 Tags
+CSS Introduction
+
+Day two
+CSS Selectors and CSS3 in-depth
+Specificity, Inheritance and the Cascade
+CSS Layout: Box Model, Display and Positioning
+JavaScript Introduction
+
+Day Three
+JavaScript Control Flow
+JavaScript Objects & Arrays
+jQuery: Handling the DOM
+jQuery Events

@@ -1,0 +1,59 @@
+Intro to Web Dev: HTML/CSS/JS
+
+Schedule
+Duration: Three days
+
+Day One
+Get Started (20 mins)
+- Introductions & Icebreakers
+- Schedule & Expectations
+- Guidelines & Housekeeping
+
+Internet basics (Lecture, 20 mins)
+- Client/Server, URL, DNS, TCP/IP
+- HTTP basics: Headers, Status, MIME
+
+Lab (20 mins)
+- CLI basics
+- Curl
+
+HTML basics (Lecture, 20 mins)
+- Syntax and semantics
+- Common tags, default styles
+- HTML Parsing and DOM 
+Web Developer Tools
+- Chrome Dev Tools: Elements, Network
+- HTML Validators
+Semantic HTML & HTML5 Tags
+- Semantic markup: Accessibility, SEO
+- HTML5: DOM & JS API, Browser support
+CSS Introduction
+- Why CSS: organizing styles
+- CSS basics: syntax, best practices
+
+Day two
+CSS 
+- Advanced Selectors
+- Specificity, Inheritance and the Cascade
+- Layout: Box Model, Display and Positioning
+- CSS3: Animations, Transitions
+JavaScript basics
+- Syntax, best practices
+- Variables and operators
+- Data structures
+- Functions
+Web Developer Tools
+- Chrome Dev Tools: Console, Sources
+
+Day Three
+Advanced JavaScript
+- Functions: named arguments, variable scope, "this"
+- Objects: methods, prototypes, "new"
+DOM Manipulation
+- Native API
+- Best practices, timing
+- Events
+jQuery
+- Intro to script loading
+- jQuery API
+- DOM, Events
