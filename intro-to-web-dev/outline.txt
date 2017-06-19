@@ -3,7 +3,7 @@ Duration: Three days
 
 Day One
 Web Development Basics
-Browser Developer Tools
+Developer Tools
 Semantic HTML & HTML5 Tags
 CSS Introduction
 

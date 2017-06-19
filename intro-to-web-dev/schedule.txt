@@ -15,45 +15,268 @@ Internet basics (Lecture, 20 mins)
 
 Lab (20 mins)
 - CLI basics
+- nslookup, tracert
 - Curl
 
-HTML basics (Lecture, 20 mins)
+HTML basics (Lecture, 10 mins)
 - Syntax and semantics
 - Common tags, default styles
-- HTML Parsing and DOM 
-Web Developer Tools
+- HTML Parsing and DOM
+
+Web Developer Tools (exercise, 10 mins)
 - Chrome Dev Tools: Elements, Network
 - HTML Validators
-Semantic HTML & HTML5 Tags
-- Semantic markup: Accessibility, SEO
-- HTML5: DOM & JS API, Browser support
-CSS Introduction
+- Examine popular pages in Dev Tools
+
+Make a plan (exercise, 10 mins)
+- Determine immediate requirements
+- Note future requirements
+- Choose HTML elements based on requirements 
+
+Lab (40 mins)
+- Write HTML for Tic-Tac-Toe UI
+- Repeat for "Player Info" section
+
+Explore parsing & validity (exercise, 20 mins)
+- Use an HTML Validator
+- Explore DOM through Dev Tools
+
+Semantic HTML & HTML5 (lecture, 10 mins)
+- Why Semantic Markup: Accessibility, best practices, SEO
+- HTML5: APIs, Browser support
+
+Lab (20 mins)
+- Add header, footer, main, nav, sections
+
+Lunch 
+
+CSS Introduction (lecture, 10 mins)
 - Why CSS: organizing styles
 - CSS basics: syntax, best practices
 
+Web Developer Tools (exercise, 10 mins)
+- Examine styles through Elements panel
+
+CSS Layout: Box Model (10 mins)
+- What is the Box Model?
+- How height and width are calculated
+- Interaction with other elements
+- Special cases: Negative values, no width
+
+Lab (20 mins)
+- Examine and modify examples of various situations
+
+CSS Layout: Display (lecture, 20 mins)
+- Layout Flow
+- Inline, block, inline-block, 'none'
+- Float & clear
+
+Lab (20 mins)
+- Make nav bar menu items horizontal
+- Wrap text around picture in "Player Info"
+- Use percentage widths and floats to make basic fluid layout
+
+CSS Layout (lecture, 20 mins)
+- Positioning
+- Position types
+- What to use when
+
+Lab (60 mins)
+- Lay out header, footer, sidebar
+- Create a modal dialog
+- All-CSS drop down menu
+
+In Practice (lecture, 20 mins)
+- Horizontal centering
+- Vertical centering
+- Nested column layouts
+- Fluid layouts
+- Modals and overlays
+
+Lab (40 mins)
+- Work examples from "In Practice"
+- Create additional pages 
+-- Home
+-- Login / Signup
+-- About Us
+
 Day two
-CSS 
-- Advanced Selectors
-- Specificity, Inheritance and the Cascade
-- Layout: Box Model, Display and Positioning
-- CSS3: Animations, Transitions
-JavaScript basics
-- Syntax, best practices
-- Variables and operators
-- Data structures
-- Functions
-Web Developer Tools
-- Chrome Dev Tools: Console, Sources
+
+Review/Warmup (20 mins)
+
+Lab (30 mins)
+- Continue examples from "In Practice"
+
+CSS Cascade (lecture, 10 mins)
+- User, User agent, and Authors
+- About Reset sheets
+- Why !important should be avoided
+
+Lab (10 mins)
+- Start a basic reset sheet
+
+CSS Specificity (lecture, 10 mins)
+- Rules
+- How specificity can help organization
+- Why ids should be avoided
+
+Lab (20 mins)
+- Examine & modify specificity examples
+- Update project with best practices
+
+CSS Inheritance (lecture, 10 mins)
+- Default versus computed values
+- Properties, inherited and non-
+- Common uses
+
+Lab (10 mins)
+- Examine & modify inheritance examples
+- Update project with best practices
+
+CSS Advanced Selectors (code-along, 60 mins)
+- Attribute
+- Child
+- Sibling
+- Pseudo-selectors
+- Pseudo-elements
+
+Review CSS3 (lecture, 10 mins)
+- Shapes
+- Transforms, Transitions and Animations
+- Flexbox, Grid and Column
+
+Lunch
+
+Switch to Node CLI (exercise, 10 mins)
+
+JS Basics (code-along, 10 mins)
+- Syntax: parentheses, curly brackets, semicolons
+- Primitives
+- Common operators
+- Type conversion
+
+JS Variables (lecture, 10 mins)
+- 'var' and '"use strict"'
+- Reference, not value
+- Dynamic typing
+
+Lab (10 mins)
+- Compare examples of strict and non- 
+- Examine & modify examples of type conversion
+
+JS Control Flow (lecture, 10 mins)
+- if 
+- for
+- switch
+
+JS Array (code-along, 10 mins)
+- Literal syntax
+- Assignment & access
+- slice()
+
+Lab (10 mins)
+- Add, access, remove array items 
+- Also dynamically
+
+JS Objects (code-along, 10 mins)
+- Literal syntax
+- Keys and values
+- Assignment & access
+- 'delete' keyword
+
+Lab (10 mins)
+- Create objects corresponding to players from project
+
+JS Functions (code-along, 10 mins)
+- Literal syntax
+- Named and anonymous
+- Arguments
+- Return statement
+
+Lab (20 mins)
+- Create a math function 
+- Takes operation and terms, returns value
+- Support add/subtract/multiply/divide
+- Support multiple operands through 'arguments'
+- Demonstrate order of operations by calling recursively
+
+Lab (10 mins)
+- Plan CLI Tic Tac Toe
+- "Two player" mode only (no opponent/AI)
+- Accept input, store, check for win
+
+Lab (45 mins)
+- Code CLI Tic Tac Toe
+
+Review/discuss CLI TicTacToe (exercise, 10 mins)
+
+Lab (45 mins)
+- Code CLI Tic Tac Toe
 
 Day Three
-Advanced JavaScript
-- Functions: named arguments, variable scope, "this"
-- Objects: methods, prototypes, "new"
-DOM Manipulation
-- Native API
+
+Review/Warmup (20 mins)
+
+Functions: Context (lecture, 10 mins)
+- call/apply/bind
+- "this" keyword
+- Functions as methods
+
+Lab (45 mins)
+- On player objects, implement dynamic methods
+
+Functions: Scope (lecture, 10 mins)
+- About JS variable scope
+- Shadowing
+- Closure pattern
+
+Lab (45 mins)
+- On player objects, implement private get/set methods via closure
+
+Functions: Hoisting (lecture, 10 mins)
+- Function declaration versus execution
+- To hoist or not: intro to style guides
+
+Explore Hoisting (exercise, 10 mins)
+
+Advanced JS Objects (10 mins)
+- Prototypes
+- instanceof & constructor
+- "new" keyword
+
+Lab (20 mins)
+- Create inherited subtypes for player objects
+
+Lunch
+
+DOM (10 mins)
+- What is it?
+- Native JS API
 - Best practices, timing
-- Events
-jQuery
+
+Lab (45 mins)
+- Populate Player Info section with JS Object data
+- Modify setter to update DOM on change
+
+DOM Events (20 mins)
+- Intro to Events
+- API
+- User actions
+- Lifecycle
+
+Lab (45 mins)
+- Move Player Info inside domcontentready
+- Bind Player Info display to input elements
+
+Lab (45 mins)
+- Bind TicTacToe code to input events
+
+jQuery (20 mins)
 - Intro to script loading
 - jQuery API
 - DOM, Events
+
+Lab (45 mins)
+- Add jQuery to page
+- Convert DOM operations to jQuery
+- Create & consume custom event
