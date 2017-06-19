@@ -1,0 +1,16 @@
+Tic-Tac-Toe UI Plan
+
+Immediate Requirements
+- Need a 3x3 grid
+- Player(s) need to be able to click
+- Grid needs to change display on click
+- Grid needs to store result of click
+
+Eventual Requirements
+- Display player info
+- Indicate current player turn
+- Navigation menu, header/footer, etc
+
+MVP Solution
+Use <table> for grid container
+Radio button inputs as grid contents

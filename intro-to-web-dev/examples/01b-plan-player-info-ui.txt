@@ -1,0 +1,16 @@
+Player Info UI Plan
+
+Immediate Requirements
+- Display player info
+-- name
+-- picture
+
+Eventual Requirements
+- Edit player info
+- Win/loss record
+- Highlight current winner
+
+MVP Solution
+Use <div> for container
+Use <h2> for player name
+Use <img> for player picture

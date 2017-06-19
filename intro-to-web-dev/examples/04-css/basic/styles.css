@@ -1,0 +1,10 @@
+ul li a {
+  background-color: purple;
+}
+ul li > a {
+  background-color: red;
+}
+a {
+	color: white;
+	padding: 1em;
+}

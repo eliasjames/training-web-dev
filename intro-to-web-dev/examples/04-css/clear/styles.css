@@ -1,0 +1,37 @@
+main {
+  margin-left: 2em;
+}
+section {
+  margin-bottom: 0.5em;
+  padding: 1em;
+}
+p { 
+  margin: 0;
+  padding: 1em;
+}
+section, div, span, a, em {
+  border: 2px solid black;
+  margin-right: 0.5em;
+  padding: 1em;
+}
+span, a, em {
+  border: 2px solid orange;
+}
+div {
+  margin-bottom: 0.5em;
+  width: 2em;
+}
+.right, .right * {
+  float: right;
+}
+.left, .left * {
+  float: left;
+}
+.clear {
+  border-color: purple;
+  clear: right;
+}
+.clearboth {
+  border-color: purple;
+  clear: both;
+}

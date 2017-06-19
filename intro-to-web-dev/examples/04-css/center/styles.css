@@ -1,0 +1,23 @@
+main {
+  margin-left: 2em;
+}
+section {
+  margin-bottom: 0.5em;
+  padding: 1em;
+}
+section, div, span, a, p, em {
+  border: 2px solid black;
+  margin-right: 0.5em;
+  padding: 1em;
+}
+p { 
+  margin: 0 auto;
+  width: 5em;
+}
+p.modern {
+  display: flex;
+  justify-content: center;
+}
+.example {
+  width: 75%;
+}
