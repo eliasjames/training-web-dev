@@ -4,6 +4,8 @@ Immediate Requirements
 - Display player info
 -- name
 -- picture
+-- bio
+- Display multiple players
 
 Eventual Requirements
 - Edit player info
@@ -11,6 +13,7 @@ Eventual Requirements
 - Highlight current winner
 
 MVP Solution
-Use <div> for container
+Use <ul><li> for container
 Use <h2> for player name
 Use <img> for player picture
+Use <p> for player bio
