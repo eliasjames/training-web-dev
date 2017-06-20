@@ -3,10 +3,12 @@ body {
   width: 50%;
 }
 ul {
-  height: 1.5em;
   list-style-type: none;
 }
-li {
+nav ul {
+  height: 1.5em;
+}
+nav ul li {
   float: left;
   padding: 0.125em;
 }
