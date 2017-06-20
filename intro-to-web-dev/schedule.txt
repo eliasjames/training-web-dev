@@ -58,8 +58,8 @@ CSS Introduction (lecture, 10 mins)
 - Why CSS: organizing styles
 - CSS basics: syntax, best practices
 
-Web Developer Tools (exercise, 10 mins)
-- Examine styles through Elements panel
+Lab (10 mins)
+- Move inline styles to external sheet
 
 CSS Layout: Box Model (10 mins)
 - What is the Box Model?
