@@ -1,0 +1,12 @@
+body {
+  margin: 5%;
+  width: 50%;
+}
+ul {
+  height: 1.5em;
+  list-style-type: none;
+}
+li {
+  float: left;
+  padding: 0.125em;
+}
