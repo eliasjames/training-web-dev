@@ -33,9 +33,8 @@ Make a plan (exercise, 10 mins)
 - Note future requirements
 - Choose HTML elements based on requirements 
 
-Lab (40 mins)
-- Write HTML for Tic-Tac-Toe UI
-- Repeat for "Player Info" section
+Lab (30 mins)
+- Write HTML for TicTacToe UI page
 
 Explore parsing & validity (exercise, 20 mins)
 - Use an HTML Validator
@@ -47,6 +46,9 @@ Semantic HTML & HTML5 (lecture, 10 mins)
 
 Lab (20 mins)
 - Add header, footer, main, nav, sections
+- Write HTML for additional pages:
+-- "Player Info" section
+-- "About TicTacToe"
 
 Lunch 
 
