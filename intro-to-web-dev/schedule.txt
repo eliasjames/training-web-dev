@@ -145,8 +145,6 @@ Review CSS3 (lecture, 10 mins)
 
 Lunch
 
-Switch to Node CLI (exercise, 10 mins)
-
 JS Basics (code-along, 10 mins)
 - Syntax: parentheses, curly brackets, semicolons
 - Primitives
@@ -183,7 +181,7 @@ JS Objects (code-along, 10 mins)
 - 'delete' keyword
 
 Lab (10 mins)
-- Create objects corresponding to players from project
+- Create JavaScript corresponding to players from project
 
 JS Functions (code-along, 10 mins)
 - Literal syntax
