@@ -44,11 +44,13 @@ Semantic HTML & HTML5 (lecture, 10 mins)
 - Why Semantic Markup: Accessibility, best practices, SEO
 - HTML5: APIs, Browser support
 
-Lab (20 mins)
+Lab (30 mins)
 - Add header, footer, main, nav, sections
 - Write HTML for additional pages:
 -- "Player Info" section
 -- "About TicTacToe"
+-- Login / Signup
+- Style: main width, ul list-style-type: none
 
 Lunch 
 
@@ -83,10 +85,8 @@ CSS Layout (lecture, 20 mins)
 - Position types
 - What to use when
 
-Lab (60 mins)
-- Lay out header, footer, sidebar
-- Create a modal dialog
-- All-CSS drop down menu
+Lab (40 mins)
+- Lay out header, footer, main
 
 In Practice (lecture, 20 mins)
 - Horizontal centering
@@ -95,12 +95,8 @@ In Practice (lecture, 20 mins)
 - Fluid layouts
 - Modals and overlays
 
-Lab (40 mins)
+Lab (60 mins)
 - Work examples from "In Practice"
-- Create additional pages 
--- Home
--- Login / Signup
--- About Us
 
 Day two
 
