@@ -8,6 +8,7 @@ Get Started (20 mins)
 - Introductions & Icebreakers
 - Schedule & Expectations
 - Guidelines & Housekeeping
+- Project setup
 
 Internet basics (Lecture, 20 mins)
 - Client/Server, URL, DNS, TCP/IP
@@ -221,6 +222,14 @@ Functions: Context (lecture, 10 mins)
 Lab (45 mins)
 - On player objects, implement dynamic methods
 
+Advanced JS Objects (10 mins)
+- Prototypes
+- instanceof & constructor
+- "new" keyword
+
+Lab (20 mins)
+- Create inherited subtypes for player objects
+
 Functions: Scope (lecture, 10 mins)
 - About JS variable scope
 - Shadowing
@@ -234,14 +243,6 @@ Functions: Hoisting (lecture, 10 mins)
 - To hoist or not: intro to style guides
 
 Explore Hoisting (exercise, 10 mins)
-
-Advanced JS Objects (10 mins)
-- Prototypes
-- instanceof & constructor
-- "new" keyword
-
-Lab (20 mins)
-- Create inherited subtypes for player objects
 
 Lunch
 
