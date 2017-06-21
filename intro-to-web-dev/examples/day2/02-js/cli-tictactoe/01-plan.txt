@@ -1,0 +1,19 @@
+CLI TicTacToe Plan
+
+Immediate Requirements
+- Two player mode only (no opponent/AI)
+- Accept input from player
+- Store input
+- Check for game over conditions
+
+Eventual Requirements
+- Hook up UI to input
+- Recognize Tie conditions
+
+MVP Solution
+- Input storage: array
+- Input handler: function
+-- Two arguments: player & position
+-- Returns message object
+- Game over checker: function
+-- Search storage data structure for win conditions
