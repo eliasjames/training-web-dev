@@ -1,12 +1,12 @@
-let currentPlayer;
-let movePromptObj = {
+var currentPlayer;
+var movePromptObj = {
   'playerone': 'Player one, row and column',
   'playertwo': 'Player two, row and column',
   'winone': 'Player one wins',
   'wintwo': 'Player two wins',
   'badinput': 'Bad input, try again'
 };
-let moveStorage = [];
+var moveStorage = [];
 
 promptInput( 'player' );
 
@@ -18,7 +18,7 @@ function acceptInput( moveCoords ) {
   gameCycle( convertCoordsToArray( moveCoords ));
 }
 function checkWin() {
-  let winConditions = [
+  var winConditions = [
     [ 0, 1, 2 ],
     [ 3, 4, 5 ],
     [ 6, 7, 8 ],
@@ -31,7 +31,7 @@ function checkWin() {
     win = false,
     result;
 
-  for (let i=0; i < winConditions.length; i++ ) {
+  for (var i=0; i < winConditions.length; i++ ) {
     result = '';
     winConditions[ i ].forEach( function( eachIndex ) {
       result += moveStorage[ eachIndex ];
@@ -48,7 +48,7 @@ function changePlayer() {
   getOrChangePlayer( true );
 }
 function convertCoordsToArray( moveCoords ) {
-  let splitCoords = moveCoords.split( '' );
+  var splitCoords = moveCoords.split( '' );
   return parseInt( splitCoords[0] ) * 3 + parseInt ( splitCoords[2] );
 }
 function getOrChangePlayer( change ) {
@@ -71,13 +71,13 @@ function getCurrentPlayer() {
     };
 }
 function promptInput( promptMessageKey ) {
-  let player = getCurrentPlayer();
-  let specificPrompt = promptMessageKey + player.name;
-  let result = window.prompt( movePromptObj[ specificPrompt ], '0x0');
+  var player = getCurrentPlayer();
+  var specificPrompt = promptMessageKey + player.name;
+  var result = window.prompt( movePromptObj[ specificPrompt ], '0x0');
   acceptInput( result );
 }
 function storeInput( moveCoord ) {
-  let player = getCurrentPlayer();
+  var player = getCurrentPlayer();
   moveStorage[ moveCoord ] = player.letter;
 }
 function gameCycle( moveCoord ) {
