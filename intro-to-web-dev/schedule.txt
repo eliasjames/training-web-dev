@@ -258,7 +258,7 @@ Lab (45 mins)
 DOM Events (20 mins)
 - Intro to Events
 - API
-- User actions
+- User actions / bubbling
 - Lifecycle
 
 Lab (45 mins)
@@ -267,6 +267,8 @@ Lab (45 mins)
 
 Lab (45 mins)
 - Bind TicTacToe code to input events
+- Move bind to input's parent (td)
+- Handle incorrect clicks via bubbling
 
 jQuery (20 mins)
 - Intro to script loading
