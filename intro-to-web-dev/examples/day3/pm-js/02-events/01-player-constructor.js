@@ -30,6 +30,5 @@ function Player( newObj ) {
   }
   function domUpdateName() {
     nameEl.innerHTML = name;
-    console.log( 'keedl', playerEl );
   }
 }

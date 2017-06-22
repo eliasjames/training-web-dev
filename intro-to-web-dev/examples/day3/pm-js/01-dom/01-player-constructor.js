@@ -23,6 +23,5 @@ function Player( newObj ) {
     var playerEl = document.getElementById( id );
     var nameEl = playerEl.getElementsByTagName('h2')[0];
     nameEl.innerHTML = name;
-    console.log( 'keedl', playerEl );
   }
 }

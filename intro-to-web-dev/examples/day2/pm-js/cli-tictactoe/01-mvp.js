@@ -83,8 +83,6 @@ function storeInput( moveCoord ) {
 function gameCycle( moveCoord ) {
   storeInput( moveCoord );
 
-  console.log( 'keedl ms', moveStorage );
-
   if ( !checkWin() ) {
     changePlayer( true );
     promptInput( 'player' );
