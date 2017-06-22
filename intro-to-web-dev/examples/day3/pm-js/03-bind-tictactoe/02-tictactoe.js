@@ -90,12 +90,14 @@ function gameCycle( moveCoord ) {
 
   if ( !checkWin() ) {
     changePlayer( true );
-//    promptInput( 'player' );
+    if ( cliMode ) {
+      promptInput( 'player' );
+    }
     return;
   }
   alert( movePromptObj[ 'win' + getCurrentPlayer().name ] );
 }
-function startGame( cliMode ) {
+function startGame() {
   if ( cliMode ) {
     promptInput( 'player' );
   } else {
