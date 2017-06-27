@@ -224,7 +224,6 @@ Lab (45 mins)
 
 Advanced JS Objects (10 mins)
 - Prototypes
-- instanceof & constructor
 - "new" keyword
 
 Lab (20 mins)

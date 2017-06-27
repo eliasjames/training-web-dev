@@ -12,5 +12,4 @@ Eventual Requirements
 - Navigation menu, header/footer, etc
 
 MVP Solution
-Use <table> for grid container
-Radio button inputs as grid contents
+...left for students. See 02-game-ui.html for one possible solution
