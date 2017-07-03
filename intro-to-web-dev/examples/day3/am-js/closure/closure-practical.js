@@ -1,4 +1,4 @@
-function makeinnerCounter() {
+function makeCounter() {
   var innerCounter = 0;
 
   function increment() {
