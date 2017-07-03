@@ -1,0 +1,15 @@
+Duration: Three Days
+Day One
+- Closures & Hoisting
+- OO JS
+- Ajax & Promises
+- Grunt
+Day Two
+- Webpack
+- JavaScript Modules: AMD & CommonJS
+- Sass Introduction
+Day Three
+- Foundation 5 CSS & Sass
+- Foundation 5 JS
+- Responsive Design & Grids
+- Icon & Web fonts
