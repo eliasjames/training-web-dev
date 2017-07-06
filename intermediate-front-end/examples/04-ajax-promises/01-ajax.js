@@ -11,9 +11,9 @@ define( function() {
       myXHR.open( method, url );
       myXHR.onreadystatechange = function() {
         if ( myXHR.readyState === XMLHttpRequest.DONE && myXHR.status === 200 ) {
-          console.log(myXHR.responseText);
+          console.log( 'responseText', myXHR.responseText );
           callback( myXHR );
-        } else {
+        } else if ( myXHR.readyState === XMLHttpRequest.DONE && myXHR.status !== 200 ) {
           console.log( 'non-200: ', myXHR );
         }
       };

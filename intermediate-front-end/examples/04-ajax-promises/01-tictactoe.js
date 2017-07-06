@@ -75,7 +75,12 @@ define( [ '01-config', '01-ajax' ], function( GLOBAL_CONFIG, $ ) {
       },
       setPlayerInfo(){
         $.getPlayerInfo(( data )=>{
-          console.log( 'keedl', data );
+          let resp = JSON.parse( data.response );
+          if ( resp ) {
+            GLOBAL_CONFIG.game.playerAttributesObj = resp.playerAttributesObj;
+            return;
+          }
+          throw new Error( "setPlayerInfo, no data" );
         });
         // TODO: hook up updatePlayer
         document.dispatchEvent( new Event( 'updatePlayer' ));
