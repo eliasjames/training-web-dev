@@ -1,8 +1,8 @@
 - 01-tictactoe.js > getCurrentPlayer
 -- declare global variable "playerAttributesObj"
 -- variable contains an array which contains player attributes
--- change getCurrentPlayer to reference playerAttribuesObj
-- 01-reflector.html
+-- change getCurrentPlayer to reference playerAttributesObj
+- 01-refactor.html
 -- add element with an ID to serve as board location
 - 01-bind.js > buildGameUI
 -- create a function to build game board dynamically
