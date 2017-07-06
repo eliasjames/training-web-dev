@@ -1,7 +1,7 @@
 define( function() {
   return {
     getPlayerInfo( callback ) {
-      let url = '/player';
+      let url = '/players';
       this.doXHR( url, callback );
     },
     doXHR( url, callback, method ) {
