@@ -1,0 +1,21 @@
+{
+  "name": "03-commonjs-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "00-bind.js",
+  "scripts": {
+    "cleanForBuild": "rimraf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "rimraf dist/* && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.0.0"
+  }
+}
