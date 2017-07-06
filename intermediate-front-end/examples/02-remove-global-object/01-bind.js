@@ -9,9 +9,9 @@
     bindObj.bind = function createBind( gameId ) {
       let returnObj = {
         bindCurrentPlayer() {
-          var changePlayerTarget = `.${ GLOBAL_CONFIG.ui.els.currentPlayer }[data-game-id="${ this.latestGameId }`;
-          $( document ).on( GLOBAL_CONFIG.ui.events.changePlayer, ( e )=>{
-            if ( e.detail.latestGameId === this.latestGameId ) {
+          var changePlayerTarget = `.${ GLOBAL_CONFIG.ui.els.currentPlayer }[data-game-id="${ this.gameId }`;
+          document.addEventListener( GLOBAL_CONFIG.ui.events.changePlayer, ( e )=>{
+            if ( e.detail.gameId === this.gameId ) {
               $( changePlayerTarget ).html( 'Current player: ' + e.detail.name );
             }
           });
@@ -47,7 +47,7 @@
           gameEl.append( multiGameEl );
 
           currentPlayerEl.addClass( GLOBAL_CONFIG.ui.els.currentPlayer );
-          currentPlayerEl.attr( 'data-game-id', this.latestGameId );
+          currentPlayerEl.attr( 'data-game-id', this.gameId );
           gameEl.append( currentPlayerEl );
 
           for ( let row = 0; row < 3; row++ ) {

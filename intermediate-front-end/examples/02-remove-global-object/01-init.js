@@ -8,9 +8,7 @@
     init() {
       document.addEventListener( 'gameReady', (e)=>{
         this.game = e.detail.game;
-        let bindGameUiToEngine = new CustomEvent( 'bindGameUiToEngine', {
-          detail: this.games[ this.latestGameId ]
-        });
+        let bindGameUiToEngine = new Event( 'bindGameUiToEngine' );
         document.dispatchEvent( bindGameUiToEngine );
       });
       document.addEventListener( 'bindReady', (e)=>{
