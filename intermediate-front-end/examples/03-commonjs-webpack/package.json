@@ -6,6 +6,7 @@
   "scripts": {
     "cleanForBuild": "rimraf dist/*",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
     "webpack": "rimraf dist/* && webpack"
   },
   "keywords": [],
@@ -16,6 +17,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-env": "^1.6.0",
     "rimraf": "^2.6.1",
+    "source-map-loader": "^0.2.1",
     "webpack": "^3.0.0"
   }
 }
