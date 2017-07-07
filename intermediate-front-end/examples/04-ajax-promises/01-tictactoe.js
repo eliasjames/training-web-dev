@@ -1,4 +1,4 @@
-define( [ '01-config', '01-ajax' ], function( GLOBAL_CONFIG, $ ) {
+define( [ '01-config', '01-ajax' ], function( GLOBAL_CONFIG, ajax ) {
   return function makeGameEngine( gameId ) {
     let currentPlayer,
       moveStorage = [];
@@ -74,7 +74,7 @@ define( [ '01-config', '01-ajax' ], function( GLOBAL_CONFIG, $ ) {
         acceptInput( result );
       },
       setPlayerInfo(){
-        $.getPlayerInfo(( data )=>{
+        ajax.getPlayerInfo(( data )=>{
           let resp = JSON.parse( data.response );
           if ( resp ) {
             GLOBAL_CONFIG.game.playerAttributesObj = resp.playerAttributesObj;
