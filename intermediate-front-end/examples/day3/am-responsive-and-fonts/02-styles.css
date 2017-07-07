@@ -1,0 +1,23 @@
+.grid {
+	background-color: lightgray;
+	overflow: hidden;
+}
+.grid:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+sidebar {
+	background-color: lightblue;
+  padding-bottom: 500em;
+  margin-bottom: -500em;
+}
+[class*='col-'] {
+  float: left;
+}
+.col-2-3 {
+  width: 66.66%;
+}
+.col-1-3 {
+  width: 33.33%;
+}

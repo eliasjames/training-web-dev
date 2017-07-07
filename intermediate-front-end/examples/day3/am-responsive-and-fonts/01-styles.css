@@ -1,0 +1,83 @@
+body {
+  padding: 6% 10%;
+}
+body > * {
+  float: left;
+}
+a {
+	padding: 1em;
+}
+h1 {
+  font-size: 3em;
+  margin: 0.5em 0.1em;
+  max-width: 30em;
+  min-width: 3em;
+  padding-right: 3%;
+}
+main {
+  max-width: 20em;
+}
+main p:after {
+  content: ' to '
+}
+ol {
+  -webkit-padding-start: 0;
+  display: inline;
+  list-style-type: none;
+}
+ol > li {
+  display: inline;
+}
+ol > li:after {
+  content: '; ';
+}
+ol li:last-child:after {
+  content: '.';
+}
+ol li:last-child:before {
+  content: ' and ';
+}
+p {
+  display: inline;
+}
+ul {
+  float: right;
+  width: 3em;
+}
+ul li {
+  float: left;
+}
+.app-mode-controls {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.app-mode-controls > span:after {
+  content: ' off.'
+}
+.app-mode-controls:hover {
+  color: red;
+}
+.app-mode-controls:hover > span:after {
+  content: ' on.'
+}
+.app-mode-controls:hover + main ol {
+  list-style-type: decimal;
+}
+.app-mode-controls:hover + main ol li {
+  display: list-item;
+}
+.app-mode-controls:hover + main ol li:first-letter {
+  text-transform: uppercase;
+}
+.app-mode-controls:hover + main p:after {
+  content: ': '
+}
+.app-mode-controls:hover ~ sidebar ul {
+  list-style-type: none;
+}
+.app-mode-controls:hover ~ sidebar ul li {
+  border: 3px solid black;
+  padding: 1em;
+  width: 8em;
+}
