@@ -1,4 +1,4 @@
-define( [ '02-config', '02-ajax' ], function( GC, $ ) {
+define( [ '02-config', '02-ajax' ], function( GC, ajax ) {
   return function makeGameEngine( gameId ) {
     let currentPlayer,
       moveStorage = [];
@@ -78,7 +78,7 @@ define( [ '02-config', '02-ajax' ], function( GC, $ ) {
         // a.k.a. the "Pyramid of Doom"
         // changing the backend API could solve the problem
         // but often that's not available as an option
-        $.getPlayerInfo(( data )=>{
+        ajax.getPlayerInfo(( data )=>{
           let resp = JSON.parse( data.response );
           if ( resp ) {
             GC.game.playerAttributesObj = resp.playerAttributesObj;
@@ -86,10 +86,10 @@ define( [ '02-config', '02-ajax' ], function( GC, $ ) {
             document.dispatchEvent( new Event( 'updatePlayer' ));
             
             // hardcoded to 1 for example purposes
-            $.getPlayerRecord( '1', ( data )=>{
+            ajax.getPlayerRecord( '1', ( data )=>{
               GC.game.playerAttributesObj[ 1 ].record = resp.playerRecord;
               
-              $.getPlayersHighscore(( data )=>{
+              ajax.getPlayersHighscore(( data )=>{
                 // total wins from player record and compare against high score
                 console.log( 'highscorer', data.response );
               });
