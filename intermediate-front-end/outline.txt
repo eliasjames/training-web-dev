@@ -1,12 +1,12 @@
 Duration: Three Days
 Day One
-- Closures & Hoisting
-- OO JS
-- Ajax & Promises
 - Grunt
+- Advanced Closures & Hoisting
+- OO JS / Architecture & Patterns
+- JavaScript Modules: AMD & CommonJS
 Day Two
 - Webpack
-- JavaScript Modules: AMD & CommonJS
+- Ajax & Promises
 - Sass Introduction
 Day Three
 - Foundation 5 CSS & Sass
