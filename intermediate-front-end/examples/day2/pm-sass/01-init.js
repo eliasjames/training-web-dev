@@ -14,14 +14,14 @@
   document.addEventListener( 'startNewGame', ()=>{
     ticTacToe.newGame(); 
   });
-  requirejs( [ '00-ticTacToe.js' ], ( Game )=>{
+  requirejs( [ '01-ticTacToe.js' ], ( Game )=>{
     ticTacToe.Game = Game;
-    requirejs( [ '00-bind.js' ], ( Bind )=>{
+    requirejs( [ '01-bind.js' ], ( Bind )=>{
       ticTacToe.Bind = Bind;
       $( document ).ready( ()=>{
         ticTacToe.newGame();
       });
     });
   });
-  requirejs( [ '00-controls' ], ()=>{});
+  requirejs( [ '01-controls' ], ()=>{});
 })();

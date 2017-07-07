@@ -1,4 +1,4 @@
-define( [ '00-require-jquery' ], function( $ ) {
+define( [ '01-require-jquery' ], function( $ ) {
   return {
     getPlayerInfo( resolve, reject ) {
       let url = '/players';

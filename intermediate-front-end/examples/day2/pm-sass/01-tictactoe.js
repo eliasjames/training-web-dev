@@ -1,4 +1,4 @@
-define( [ '00-config', '00-ajax' ], function( GC, ajax ) {
+define( [ '01-config', '01-ajax' ], function( GC, ajax ) {
   return function makeGameEngine( gameId ) {
     let currentPlayer,
       moveStorage = [];

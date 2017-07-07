@@ -4,7 +4,8 @@
   "description": "",
   "main": "00-bind.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "grunt"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
     "requirejs": "^2.3.3"
   },
   "devDependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "grunt": "^1.0.1",
+    "grunt-sass": "^2.0.0"
   }
 }

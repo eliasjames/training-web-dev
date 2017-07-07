@@ -1,4 +1,4 @@
-define( [ '00-config' ], function( GLOBAL_CONFIG ) {
+define( [ '01-config' ], function( GLOBAL_CONFIG ) {
   return function bindGameEngineToUi( ticTacToe ) {
     return {
       bindCurrentPlayer() {
