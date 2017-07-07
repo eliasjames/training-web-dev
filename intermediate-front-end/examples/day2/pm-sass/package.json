@@ -1,0 +1,19 @@
+{
+  "name": "02b-requirejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "00-bind.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "requirejs": "^2.3.3"
+  },
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
