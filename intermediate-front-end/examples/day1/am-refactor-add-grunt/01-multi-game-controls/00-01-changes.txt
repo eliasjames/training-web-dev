@@ -1,6 +1,9 @@
 Goal: Create & play multiple TicTacToe games simultaneously
 Reason: Common request, demonstrates modularity
 Method: Refactor methods from specific to general
+Notes: After this step, the button click will create multiple game boards. 
+However, they will not fully work until the next step. 
+The boards will appear separate, but will share memory. 
 
 01-multi-game-controls.html
 - Move button HTML into this file
