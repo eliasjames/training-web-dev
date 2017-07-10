@@ -79,8 +79,13 @@ function getOrChangePlayer( change ) {
 }
 function getCurrentPlayer() {
   return ( getOrChangePlayer( false )) ? 
-    playerAttributesObj[0] :
-    playerAttributesObj[1];
+    { 
+      'letter': 'x', 
+      'name'  : 'one',
+    } : { 
+      'letter': 'o',
+      'name'  : 'two'
+    };
 }
 function promptInput( promptMessageKey ) {
   var player = getCurrentPlayer();

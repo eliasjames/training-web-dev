@@ -1,7 +1,7 @@
-- 01-tictactoe.js > getCurrentPlayer
--- declare global variable "playerAttributesObj"
--- variable contains an array which contains player attributes
--- change getCurrentPlayer to reference playerAttributesObj
+Goal: Create game board dynamically
+Reason: First step towards playing multiple games
+Method: Move board markup creation from .html file to JavaScript
+
 - 01-refactor.html
 -- add element with an ID to serve as board location
 - 01-bind.js > buildGameUI
