@@ -12,7 +12,6 @@ function bindCurrentPlayer() {
 function bindGameUI() {
   $( 'input' ).on( 'click', function( e ) {
       var clickTarget = e.target;
-      console.log( 'keedl', clickTarget.value, clickTarget.name );
       acceptInput( clickTarget.name );
   });
 }
