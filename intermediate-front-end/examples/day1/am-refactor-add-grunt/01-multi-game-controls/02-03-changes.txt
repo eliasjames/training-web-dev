@@ -1,6 +1,6 @@
 Goal: Create & play multiple TicTacToe games simultaneously
 Reason: Common request, demonstrates modularity
-Method: 
+Method: Create & hold multiple games to correspond to multiple boards
 Notes: Multiple games will fully work after this step.
 
 03-init.js
