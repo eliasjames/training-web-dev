@@ -1,0 +1,17 @@
+@import 'settings';
+@import 'foundation';
+@include foundation-everything;
+body {
+  margin: 5%;
+  width: 50%;
+}
+ul {
+  list-style-type: none;
+}
+nav ul {
+  height: 1.5em;
+}
+nav ul li {
+  float: left;
+  padding: 0.125em;
+}
