@@ -19,5 +19,8 @@
     "rimraf": "^2.6.1",
     "source-map-loader": "^0.2.1",
     "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1"
   }
 }
