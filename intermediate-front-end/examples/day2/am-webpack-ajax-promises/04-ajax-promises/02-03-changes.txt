@@ -1,0 +1,13 @@
+Goal: Use Promises to handle multiple, dependent data
+Reason: Better pattern for dependent async calls
+Method: Replace nested calls with chained Promises
+Notes: Run 'node 02-server.js' to start local server before ajax will work
+
+03-ajax.js
+- Change doXHR to return a new Promise
+03-tictactoe.js
+- In setPlayerInfo
+-- Inside callback for ajax.getPlayerInfo, call ajax.getPlayerRecord
+-- Inside callback for ajax.getPlayerRecord, call ajax.getPlayersHighscore
+02-server.js
+- Copy file contents from example

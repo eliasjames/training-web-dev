@@ -1,0 +1,14 @@
+Goal: Fetch multiple, dependent data using Ajax
+Reason: Dynamic app requirement
+Method: Add nested calls to Native Ajax API
+Notes: Run 'node 02-server.js' to start local server before ajax will work
+
+02-ajax.js
+- Add getPlayerRecord and getPlayerHighScores methods
+- Call doXHR with different URLs
+02-tictactoe.js
+- In setPlayerInfo
+-- Inside callback for ajax.getPlayerInfo, call ajax.getPlayerRecord
+-- Inside callback for ajax.getPlayerRecord, call ajax.getPlayersHighscore
+02-server.js
+- Copy file contents from example

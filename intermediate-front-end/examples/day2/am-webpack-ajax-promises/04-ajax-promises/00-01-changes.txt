@@ -1,0 +1,21 @@
+Goal: Fetch data using Ajax
+Reason: Dynamic app requirement
+Method: Add calls to Native Ajax API
+Notes: Run 'node 01-server.js' to start local server before ajax will work
+
+01-ajax.js
+- Add file
+- Return an object with getPlayerInfo method
+  - getPlayerInfo method takes callback as an argument
+- Create doXHR function 
+  - doXHR function creates new XMLHttpRequest (XHR)
+  - Call open method on XHR, passing method and URL
+  - Bind event handler to XHR onreadystatechange
+  - Event handler executes callback
+  - Call XHR send method
+01-tictactoe.js
+- Add 01-ajax.js to dependencies
+- Add setPlayerInfo method
+- setPlayerInfo calls ajax.getPlayerInfo
+01-server.js
+- Copy file contents from example
