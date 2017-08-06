@@ -16,6 +16,7 @@ sidebar {
   float: left;
 }
 .col-2-3 {
+  min-width: 400px;
   width: 66.66%;
 }
 .col-1-3 {
