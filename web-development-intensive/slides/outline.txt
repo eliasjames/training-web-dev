@@ -5,30 +5,23 @@ Day 1
 1.4. HTML5 and Semantic markup 
 1.5. Intro to CSS 
 
-Day 2 
-2.1. CSS Selectors
-2.2. CSS Specificity & the Cascade
-2.3. CSS Layout: Box Model, Display & Positioning 
-2.4  CSS3 in-depth
-2.4. CSS in practice 
+Day 2
+2.1. JavaScript Introduction
+2.2. Basic Objects
+2.3. Arrays and Loops
+2.4. Functions
+2.5. Prototypal Inheritance
+2.6. Principles of Software Testing
 
 Day 3
-3.1. JavaScript Introduction
-3.2. Basic Objects
-3.3. Arrays and Loops
-3.4. Functions
-3.5. Prototypal Inheritance
+3.1. TDD in Practice 
+3.2. Testable Objects In Practice
+3.3. JavaScript Best Practices / Architecture
+3.4. Testable Callback Patterns
+3.5. Refactoring
 
 Day 4
-4.1. Document Object Model (DOM) Manipulation
-4.2. Basic Event Handling
-4.3. Intro to Frameworks / Libraries (jQuery)
-4.4. Principles of Software Testing
-4.5. JavaScript Development Tools
-
-Day 5
-5.1. TDD In Practice
-5.2. Objects In-depth
-5.3. JavaScript Best Practices / Architecture
-5.4. Refactoring
-5.5. Advanced JavaScript Testing Tools & Techniques
+4.1. Intro to JavaScript Testing Tools
+4.2. Testable Document Object Model (DOM) Manipulation
+4.3. Testable Event Handling
+4.4. Testable jQuery Introduction
