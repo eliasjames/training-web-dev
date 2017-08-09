@@ -4,8 +4,13 @@ describe( 'dom test', function() {
     loadFixtures( '01-use-jquery.html' );
     master();
   });
-  it( 'should run', function() {
-		console.log( 'miles', document.getElementById('current-player'));
-    expect($('#current-player')[0]).toBeInDOM();
+  
+  it( 'should start', function() {
+    expect( $('#current-player') ).toBeInDOM();
+  });
+
+  it( 'should respond to clicks', function() {
+    $( 'input[name="0-0"][value="player1"]' )[0].click();
+    expect( $( '#current-player' ).html()).toEqual( 'Current player: two' );
   });
 });
