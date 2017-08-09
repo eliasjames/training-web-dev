@@ -1,0 +1,22 @@
+{
+  "name": "01-dom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-create-players.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^2.7.0",
+    "jasmine-jquery": "^2.1.1",
+    "jquery": "^3.2.1",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-html2js-preprocessor": "^1.1.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-ng-html2js-preprocessor": "^1.0.0"
+  }
+}

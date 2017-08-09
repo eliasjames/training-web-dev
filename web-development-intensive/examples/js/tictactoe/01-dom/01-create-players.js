@@ -25,4 +25,6 @@ var players = [ miles, willie, prince ];
 // this won't work here
 // try it from the console instead
 // reason why in next lesson
-players[0].setName( 'Miles Dewey Davis' );
+document.addEventListener( 'DOMContentLoaded', function() {
+   players[0].setName( 'Miles Dewey Davis' );
+});
