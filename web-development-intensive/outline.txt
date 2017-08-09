@@ -1,0 +1,27 @@
+Day 1 
+1.1. Web Development Basics 
+1.2. Developer Tools
+1.3. Intro to HTML
+1.4. HTML5 and Semantic markup 
+1.5. Intro to CSS 
+
+Day 2
+2.1. JavaScript Introduction
+2.2. Basic Objects
+2.3. Arrays and Loops
+2.4. Functions
+2.5. Prototypal Inheritance
+2.6. Principles of Software Testing
+
+Day 3
+3.1. TDD in Practice 
+3.2. Testable Objects In Practice
+3.3. JavaScript Best Practices / Architecture
+3.4. Testable Callback Patterns
+3.5. Refactoring
+
+Day 4
+4.1. Intro to JavaScript Testing Tools
+4.2. Testable Document Object Model (DOM) Manipulation
+4.3. Testable Event Handling
+4.4. Testable jQuery Introduction

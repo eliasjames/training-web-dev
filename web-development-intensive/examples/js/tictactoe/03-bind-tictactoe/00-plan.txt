@@ -1,0 +1,18 @@
+TicTacToe UI Plan
+
+Previous Requirements
+- Two player mode only (no opponent/AI)
+- Accept input from player
+- Store input
+- Check for game over conditions
+
+Current Requirements
+- Hook up UI to input
+- Display current player 
+
+Eventual Requirements
+- Recognize Tie conditions
+
+MVP Solution
+- Remove window.prompt from CLI
+- Create separate file with DOM event bindings
