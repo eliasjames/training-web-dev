@@ -1,8 +1,9 @@
-$(document).ready( function() {
+function master() {
   bindGameUI();
   bindCurrentPlayer();
   startGame();
-});
+}
+$(document).ready( master );
 
 function bindCurrentPlayer() {
   $( document ).on( 'changePlayer', function( e ) {
