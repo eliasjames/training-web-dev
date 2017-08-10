@@ -1,0 +1,59 @@
+Notes on npm 
+
+* npm install *
+
+- short version: 'npm i'
+- has several different signatures
+
+- without arguments 
+-- 'npm i'
+-- looks for nearest package.json in folders above
+-- if found, fetches & installs packages 
+-- always installs packages listed in 'dependencies'
+-- installs packages listed in 'devDependencies' if dev environment variable set (this is default)
+-- set env var to production for deployment
+
+- arguments: one or more package names
+-- 'npm i package-one package-two'
+-- fetches, installs, and exits
+
+- saving flags
+-- 'npm i [-S/-D] package-one package-two'
+-- with flag, fetches & installs and also writes to package.json
+-- '--save' or alias '-S' save to dependencies
+-- '--save-dev' or alias '-D' save to devDependencies
+
+*running packages*
+
+- npm installs to a folder called 'node_modules'
+- to run a package directly, find the executable inside node_modules
+- usually in a subdir named 'bin' or 'dist' (may or may not end in .js)
+- to run, pass the executable path to node
+- ex: 'node node_modules/karma/bin/karma'
+- some packages may require additional arguments
+- ex: 'node node_modules/karma/bin/karma init' (note the space after karma - 'init' is an argument to karma)
+
+* package.json *
+
+- 'name' field
+-- your project name
+-- takes the folder name by default
+-- name cannot be the same as any package you intend to use
+-- npm will error if you try to install something with the same name
+
+- 'scripts' field
+-- an object 
+-- object properties become script names
+-- property values are strings which contain bash code
+-- you can refer to packages by name inside script strings (even if they're not installed globally)
+
+- 'dependencies' field
+-- a list of packages to always be installed 
+
+- 'devDependencies' field
+-- a list of packages to be installed when environment variable set to development
+-- this is the default
+-- setting the variable to 'production' causes these packages not to be installed
+-- this is useful on a deployment machine
+-- add packages to this field that the client should not receive
+-- ex: testing tools, task runners
