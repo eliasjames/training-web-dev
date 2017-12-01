@@ -53,6 +53,7 @@ function convertCoordsToArray( moveCoords ) {
 }
 function getOrChangePlayer( change ) {
   if ( currentPlayer === undefined ) { 
+    // using true and false to represent player one and two
     currentPlayer = true;
   }
   if ( change ) {
