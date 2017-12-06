@@ -1,0 +1,41 @@
+body {
+  margin: 5%;
+  width: 50%;
+}
+ul {
+  list-style-type: none;
+}
+nav ul {
+  height: 1.5em;
+}
+nav ul li {
+  float: left;
+  padding: 0.125em;
+}
+form {
+  width: 14em;
+}
+img {
+  float: left;
+  height: 2em;
+  margin-right: 0.5em;
+  width: 2em;
+}
+.login {
+	background-color: white;
+	border: 1px solid black;
+  display: none;
+  left: 33%;
+	min-width: 14em;
+	padding: 2em;
+  position: fixed;
+  right: 33%;
+  width: 33%;
+}
+.login-hover:hover {
+  color: yellow;
+}
+.login-hover:hover .login {
+  color: black;
+  display: block;
+}
