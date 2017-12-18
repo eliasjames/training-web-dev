@@ -27,12 +27,12 @@ package.json
 - Replace GLOBAL_CONFIG variable with call to define()
 -- this define only takes one argument, a function
 -- function returns the GLOBAL_CONFIG object
-01-controls
+01-controls.js
 - Move entire file contents inside call to define()
 -- first argument to define is array containing string '01-config'
 -- second argument, anonymous function with GLOBAL_CONFIG as argument
-01-tictactoe
+01-tictactoe.js
 - Replace assignment to ticTacToe.game with call to define()
 -- first argument to define is array containing string '01-config'
 -- second argument, anonymous function with GLOBAL_CONFIG as argument
--- this anonymous function should return a function, which itself returns the bind object
+-- this anonymous function should return a function, which itself returns the game object
