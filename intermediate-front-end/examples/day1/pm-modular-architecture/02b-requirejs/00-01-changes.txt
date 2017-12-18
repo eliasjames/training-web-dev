@@ -19,4 +19,20 @@ package.json
 --- Add document ready handler with call to newGame
 - Add requirejs call to load controls 
 01-bind.js
-- 
+- Replace assignment to ticTacToe.bind with call to define()
+-- first argument to define is array containing string '01-config'
+-- second argument, anonymous function with GLOBAL_CONFIG as argument
+-- this anonymous function should return a function, which itself returns the bind object
+01-config.js
+- Replace GLOBAL_CONFIG variable with call to define()
+-- this define only takes one argument, a function
+-- function returns the GLOBAL_CONFIG object
+01-controls
+- Move entire file contents inside call to define()
+-- first argument to define is array containing string '01-config'
+-- second argument, anonymous function with GLOBAL_CONFIG as argument
+01-tictactoe
+- Replace assignment to ticTacToe.game with call to define()
+-- first argument to define is array containing string '01-config'
+-- second argument, anonymous function with GLOBAL_CONFIG as argument
+-- this anonymous function should return a function, which itself returns the bind object
