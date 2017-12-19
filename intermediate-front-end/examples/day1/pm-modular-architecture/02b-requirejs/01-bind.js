@@ -16,7 +16,7 @@ define( [ '01-config' ], function( GLOBAL_CONFIG ) {
                 clickTarget.name.length - 3
               );
 
-            this.ticTacToe.games[ this.ticTacToe.gameId ].acceptInput( targetName );
+            this.ticTacToe.games[ this.gameId ].acceptInput( targetName );
         });
       },
       buildGameUI( gameBoardID ) {
