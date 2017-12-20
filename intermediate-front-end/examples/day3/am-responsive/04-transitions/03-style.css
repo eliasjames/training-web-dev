@@ -1,0 +1,100 @@
+/* resets */
+ul { margin: 0 }
+
+/* fluid, basics */
+body {
+  margin: 0 auto;
+  transition: font-size 2s, color 2s;
+  width: 80%;
+}
+header, main, footer {
+  border: 1px solid;
+  overflow: auto;
+}
+header {
+  height: 5em;
+}
+.logo-home-link img {
+  float: left;
+  height: 3.5em;
+  margin: 0.5em;
+}
+ul {
+  list-style-type: none;
+}
+header nav {
+  float: left;
+  margin: 0 auto;
+  width: 40%;
+}
+header nav span {
+  display: none; 
+}
+.login {
+  float: right;
+}
+nav ul li {
+  float: left;
+  padding: 0.125em;
+}
+.big {
+  border-right: 1px solid;
+  float: left;
+  width: 66%;
+}
+.big h1 {
+  width: 37%;
+}
+.big h1, .big table {
+  margin: 5% auto;
+}
+.small {
+  float: right;
+  padding: 1%;
+  width: 31%;
+}
+footer {
+  clear: both;
+}
+
+/* media queries */
+/* phones */
+@media screen and ( max-width: 412px ) {
+  body { 
+    color: red; 
+    font-size: 0.8em;
+  }
+  .small {
+    border-bottom: 1px solid;
+    float: left;
+    padding: 3%;
+    width: auto;
+  }
+  .big {
+    border-right: none;
+    width: 100%;
+  }
+  header nav ul {
+    display: none; 
+  }
+  header nav span {
+    display: inline; 
+  }
+  header nav div:hover ul {
+    display: block; 
+  }
+}
+/* tablets */
+@media screen and ( min-width: 413px ) and ( max-width: 768px ) {
+  body { 
+    color: green; 
+    font-size: 0.9em;
+  }
+}
+/* desktops */
+@media screen and ( min-width: 769px ) {
+  body { 
+    color: blue; 
+    font-size: 1em;
+  }
+}

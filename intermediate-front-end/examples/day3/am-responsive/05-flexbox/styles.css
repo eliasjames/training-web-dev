@@ -1,0 +1,54 @@
+body {
+	width: 50%;
+}
+body > div {
+	border: 3px solid lightblue;
+	margin-bottom: 2em;
+	padding: 1em;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+	border: 3px solid darkgray;
+	padding: 1em;
+}
+.inline-flex .flex-container {
+	display: inline-flex;
+}
+.inline-flex a {
+  display: block;
+}
+.inline-flex a:after {
+  content: ' inline-flex';
+}
+.inline-flex a:hover + .flex-container {
+	display: flex;
+}
+.inline-flex a:hover:after {
+  content: ' flex';
+}
+.flex-direction .flex-container {
+  flex-direction: row;
+}
+.flex-direction a:after {
+  content: ' row';
+}
+.flex-direction a:hover + .flex-container {
+  flex-direction: column;
+}
+.flex-direction a:hover:after {
+  content: ' column';
+}
+.flex-direction-reverse .flex-container {
+  flex-direction: row;
+}
+.flex-direction-reverse a:after {
+  content: ' row';
+}
+.flex-direction-reverse a:hover + .flex-container {
+  flex-direction: row-reverse;
+}
+.flex-direction-reverse a:hover:after {
+  content: ' row-reverse';
+}

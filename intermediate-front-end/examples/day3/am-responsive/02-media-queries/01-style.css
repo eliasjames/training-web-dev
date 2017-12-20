@@ -1,0 +1,53 @@
+/* resets */
+ul { margin: 0 }
+
+body {
+  margin: 0 auto;
+  width: 80%;
+}
+header, main, footer {
+  border: 1px solid;
+  overflow: auto;
+}
+header {
+  height: 5em;
+}
+.logo-home-link img {
+  float: left;
+  height: 3.5em;
+  margin: 0.5em;
+}
+ul {
+  list-style-type: none;
+}
+header nav {
+  float: left;
+  margin: 0 auto;
+  width: 40%;
+}
+.login {
+  float: right;
+}
+nav ul li {
+  float: left;
+  padding: 0.125em;
+}
+.big {
+  border-right: 1px solid;
+  float: left;
+  width: 66%;
+}
+.big h1 {
+  width: 37%;
+}
+.big h1, .big table {
+  margin: 5% auto;
+}
+.small {
+  float: right;
+  padding: 1%;
+  width: 31%;
+}
+footer {
+  clear: both;
+}
