@@ -1,5 +1,5 @@
 module.exports = function(grunt) {
-	grunt.loadNpmTasks( 'grunt-contrib-sass' );
+	grunt.loadNpmTasks( 'grunt-sass' );
 
 	grunt.initConfig({
 		sass: {
